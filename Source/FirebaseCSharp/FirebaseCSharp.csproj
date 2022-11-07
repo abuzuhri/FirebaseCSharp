@@ -1,6 +1,29 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>FirebaseCSharp</PackageId>
+    <Authors>Tareq Abuzuhri</Authors>
+    <Company>Cozly AB</Company>
+    <Product>Firebase CSharp</Product>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <LangVersion>8.0</LangVersion>
+    <Version>1.0.1</Version>
+    <AssemblyVersion>1.0.1</AssemblyVersion>
+    <FileVersion>1.0.1</FileVersion>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageProjectUrl>https://github.com/abuzuhri/FirebaseCSharp</PackageProjectUrl>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/abuzuhri/FirebaseCSharp</RepositoryUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>Firebase CSharp</PackageTags>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <Description>.Net C# library for Firebase CSharp</Description>
+
+  </PropertyGroup>
+  
+  <PropertyGroup>
     <TargetFramework>netstandard2.1</TargetFramework>
     <Nullable>enable</Nullable>
   </PropertyGroup>
